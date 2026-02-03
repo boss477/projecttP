@@ -1,0 +1,40 @@
+# Datasets
+data/cholec80/
+data/endovis/
+data/endovis_yolo/
+data/instrument_dataset_1/
+data/*.zip
+data/*.rar
+
+# Models and Weights
+models/pretrained/*.pth
+models/pretrained/*.pt
+models/pretrained/logs/
+runs/
+checkpoint_latest.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# Outputs
+outputs/*.mp4
+outputs/*.jpg
+outputs/*.png
+
+# IDEs
+.vscode/
+.idea/
+.project
+.pydevproject
+.settings/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
